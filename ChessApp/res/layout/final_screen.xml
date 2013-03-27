@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalscreen"
+    android:orientation="vertical" >
+    
+     <RelativeLayout
+         android:layout_width="258dp"
+         android:layout_height="298dp"
+         android:layout_marginLeft="32dp"
+         android:layout_marginRight="32dp"
+         android:layout_marginTop="100dp" >
+
+         <TextView
+             android:id="@+id/title"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+             android:layout_marginBottom="20dp"
+             android:layout_marginTop="25dp"
+             android:text="@string/gameOver"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="@color/Red"
+             android:typeface="serif" />
+
+         <TextView
+             android:id="@+id/winnerTeam"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_below="@+id/title"
+             android:layout_marginRight="33dp"
+             android:text="@string/WinnerTeam"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/winner"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/winnerTeam"
+             android:layout_alignBottom="@+id/winnerTeam"
+             android:layout_marginBottom="10dp"
+             android:layout_marginRight="18dp"
+             android:layout_toLeftOf="@+id/winnerTeam"
+             android:text="@string/Winner"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/Green" />
+
+         <TextView
+             android:id="@+id/kills"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/winner"
+             android:layout_marginLeft="18dp"
+             android:layout_marginTop="10dp"
+             android:text="@string/killsWinner"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/moves"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/kills"
+             android:layout_below="@+id/kills"
+             android:layout_marginTop="5dp"
+             android:text="@string/movesWinner"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/piecesLeft"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/moves"
+             android:layout_below="@+id/moves"
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="5dp"
+             android:text="@string/piecesLeftWinner"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/numberKills"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/moves"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="16dp"
+             android:text="@string/numberKillsWinner"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/numberMoves"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/piecesLeft"
+             android:layout_alignLeft="@+id/numberKills"
+             android:text="@string/numberMovesWinner"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/numberPiecesLeft"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/piecesLeft"
+             android:layout_alignBottom="@+id/piecesLeft"
+             android:layout_alignLeft="@+id/numberMoves"
+             android:text="@string/numberLeftPiecesWinner"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/loser"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/winner"
+             android:layout_below="@+id/piecesLeft"
+             android:text="@string/Loser"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/Green" />
+
+         <TextView
+             android:id="@+id/loserTeam"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/loser"
+             android:layout_alignBottom="@+id/loser"
+             android:layout_toRightOf="@+id/winner"
+             android:text="@string/LoserTeam"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/kills2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/piecesLeft"
+             android:layout_below="@+id/loser"
+             android:layout_marginBottom="5dp"
+             android:layout_marginTop="14dp"
+             android:text="@string/killsLoser"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/moves2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/kills2"
+             android:layout_below="@+id/kills2"
+             android:layout_marginBottom="5dp"
+             android:text="@string/movesLoser"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/piecesLeft2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/moves2"
+             android:layout_below="@+id/moves2"
+             android:text="@string/piecesLeftLoser"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/numberKills2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/kills2"
+             android:layout_alignBottom="@+id/kills2"
+             android:layout_alignLeft="@+id/numberPiecesLeft"
+             android:text="@string/numberLeftPiecesLoser"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/numberMoves2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/moves2"
+             android:layout_alignBottom="@+id/moves2"
+             android:layout_alignLeft="@+id/numberKills2"
+             android:text="@string/numberMovesLoser"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/numberPiecesLeft2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/piecesLeft2"
+             android:layout_alignBottom="@+id/piecesLeft2"
+             android:layout_alignLeft="@+id/numberMoves2"
+             android:text="@string/numberKillsWinner"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="@color/black" />
+
+     </RelativeLayout>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="95dp" android:layout_marginTop="10dp" android:background="@drawable/closebtn"/>
+	
+</LinearLayout>

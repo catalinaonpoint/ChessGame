@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ChessAppActivity!</string>
+    <string name="app_name">ChessApp</string>
+    <string name="mainPicDescription">Main Picture</string>
+    <string name="newGameBtnDesc">New Game</string>
+    <string name="recordedGamesBtnDesc">Recorded Games</string>
+    <string name="new_game">New Game Screen</string>
+    <string name="blackrook">\u265C</string>
+    <string name="blackbioshop">\u265D</string>
+    <string name="blackknight">\u265E</string>
+    <string name="blackqueen">\u265B</string>
+    <string name="blackking">\u265A</string>
+    <string name="blackpawn">\u265F</string>
+    <color name="black">#000000</color>
+    <string name="whiteking">\u2654</string>
+    <string name="whitequeen">\u2655</string>
+    <string name="whiterook">\u2656</string>
+    <string name="whitebioshop">\u2657</string>
+    <string name="whiteknight">\u2658</string>
+    <string name="whitepawn">\u2659</string>
+    <string name="filename">File Name</string>
+    <string name="date">Date</string>
+    <string name="gameOver">GAME OVER</string>
+    <string name="Winner">Winner</string>
+    <string name="WinnerTeam">WinnerTeam</string>
+    <string name="Loser">Loser</string>
+    <string name="LoserTeam">LoserTeam</string>
+    <string name="killsWinner">Number of kills</string>
+    <string name="numberKillsWinner">#</string>
+    <string name="killsLoser">Number of kills</string>
+    <string name="numberKillsLoser">#</string> 
+    <string name="movesWinner">Number of moves</string>
+    <string name="numberMovesWinner">#</string>
+    <string name="movesLoser">Number of moves</string>
+    <string name="numberMovesLoser">#</string>
+    <string name="piecesLeftWinner">Number of pieces left</string>
+    <string name="numberLeftPiecesWinner">#</string>
+    <color name="Red">#6B0808</color><string name="piecesLeftLoser">Number of pieces left</string>
+    <color name="Green">#052E2E</color><string name="numberLeftPiecesLoser">#</string>
+    <string name="sortdate">Sort By Date</string>
+    <string name="sortfilename">Sort By Filename</string>
+    
+    
+	
+	
+
+</resources>
